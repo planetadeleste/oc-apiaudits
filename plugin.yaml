@@ -1,0 +1,8 @@
+plugin:
+    name: 'planetadeleste.apiaudits::lang.plugin.name'
+    description: 'planetadeleste.apiaudits::lang.plugin.description'
+    author: PlanetaDelEste
+    icon: icon-smile-o
+    homepage: ''
+navigation:
+permissions:

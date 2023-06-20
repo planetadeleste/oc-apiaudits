@@ -1,0 +1,23 @@
+{
+    "name": "planetadeleste/oc-apiaudits-plugin",
+    "description": "Restful API for OwenIt/Auditable",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "october-plugin",
+    "authors": [
+        {
+            "name": "Alvaro Canepa",
+            "email": "bfpdevel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PlanetaDelEste\\ApiAudits\\": ""
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "planetadeleste/oc-apitoolbox-plugin": "^1.0",
+        "owen-it/laravel-auditing": "^12.2"
+    }
+}
